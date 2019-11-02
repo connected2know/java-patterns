@@ -1,4 +1,4 @@
-package main.java;
+package main.java.singleton;
 
 public class SingletonCloningProblem implements Cloneable {
 
