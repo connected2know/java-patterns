@@ -1,4 +1,4 @@
-package factoryclass;
+package main.java.factory;
 
 public class AbstractFactoryMethod { // top-level class were we will create all necessary entities to show the
 										// factory abstract method design pattern
