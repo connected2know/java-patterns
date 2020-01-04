@@ -11,6 +11,8 @@ public class NewsAgency extends Observable{
 	}
 	
 	public void setNews(String newNewsCoutry, String newNewsText) {
+		this.newsCountry = newNewsCoutry;
+		this.newsText = newNewsText;
 		setChanged();
 		notifyObservers();
 	}
