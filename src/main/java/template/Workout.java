@@ -3,13 +3,13 @@ package main.java.template;
 public abstract class Workout {
 	
 	
-	public void makeWorkout() {
-		warmOut();
+	 public final void makeWorkout() {
+		warmUp();
 		workOutExercises();
 		stretch();
 	}
 	
-	public void warmOut() {
+	public void warmUp() {
 		System.out.println("Warmup done!");
 	}
 
