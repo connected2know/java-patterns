@@ -16,17 +16,17 @@ public class DanceStep extends DanceComponent{
 
 	@Override
 	public String getMoveName() {
-		return moveName;
+		return this.moveName;
 	}
 
 	@Override
 	public String getMoveDescription() {
-		return moveDescription;
+		return this.moveDescription;
 	}
 
 	@Override
 	public int getMoveLevel() {
-		return moveLevel;
+		return this.moveLevel;
 	}
 	
 	@Override

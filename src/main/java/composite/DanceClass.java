@@ -15,17 +15,17 @@ public class DanceClass extends DanceComponent{
 	
 	@Override
 	public void add(DanceComponent danceComponent) throws DanceOperationException {
-		dancingComponents.add(danceComponent);
+		this.dancingComponents.add(danceComponent);
 	}
 	
 	@Override
 	public void remove(DanceComponent danceComponent) throws DanceOperationException {
-		dancingComponents.remove(danceComponent);
+		this.dancingComponents.remove(danceComponent);
 	}
 
 	@Override
 	public DanceComponent get(int position){
-		return dancingComponents.get(position);
+		return this.dancingComponents.get(position);
 	}
 	
 	@Override
@@ -37,7 +37,7 @@ public class DanceClass extends DanceComponent{
 	}
 	
 	protected void printComponentsInfo() throws DanceOperationException {
-		Iterator<DanceComponent> iterator =  dancingComponents.iterator();
+		Iterator<DanceComponent> iterator =  this.dancingComponents.iterator();
 		
 		while(iterator.hasNext()) {
 			DanceComponent component = iterator.next();

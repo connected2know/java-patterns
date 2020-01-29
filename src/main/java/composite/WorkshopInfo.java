@@ -7,7 +7,7 @@ public class WorkshopInfo {
 		try {
 			DanceStep basicSalsa = new DanceStep("Basic salsa","Forward 1,2, 3. Back 5,6, 7",1);
 			DanceStep crossBodySalsa = new DanceStep("Cross Body Lead", "1,2, Side, side, 6, 7",2);
-			DanceStep stylingSalsa1 = new DanceStep("Stiling move 1","Harm stile",2);
+			DanceStep stylingSalsa1 = new DanceStep("Styling move 1","Arm style",2);
 			
 			DanceComponent salsaClass = new DanceClass("Salsa class", "1 hour salsa class");
 			salsaClass.add(basicSalsa);
@@ -26,7 +26,6 @@ public class WorkshopInfo {
 		}
 		
 	}
-	
-	
+		
 
 }
